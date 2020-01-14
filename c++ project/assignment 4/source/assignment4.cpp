@@ -83,7 +83,7 @@ vtkSmartPointer<vtkRenderWindow> createRenderWindowFromMultipleMappers(std::vect
 	vtkSmartPointer<vtkScalarBarActor> scalarBarActor = vtkSmartPointer<vtkScalarBarActor>::New();
 
 	// fallback color, is used whenever mappers do not utilize scalars for coloring
-	actor1->GetProperty()->SetColor(1, 1, 1);
+	//actor1->GetProperty()->SetColor(1, 1, 1);
 	actor2->GetProperty()->SetColor(1, 1, 1);
 
 	// setting up Legend
